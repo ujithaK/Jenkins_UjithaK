@@ -2,7 +2,7 @@ package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import pages.ContactPage;
 
 public class ContactPage_Test {
@@ -17,3 +17,4 @@ public class ContactPage_Test {
         cp.submitForm("Hari", "hk01@gmail.com", "Need information regarding products");
     }
 }
+
