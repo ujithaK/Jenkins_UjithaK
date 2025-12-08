@@ -2,7 +2,7 @@ package test;
 import pages.Login;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class Login_Test {
 
@@ -28,3 +28,4 @@ public class Login_Test {
         lp.login("harik01.com", "1234");
     }
 }
+
