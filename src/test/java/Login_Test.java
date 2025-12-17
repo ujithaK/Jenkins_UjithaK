@@ -1,4 +1,4 @@
-package test;
+
 import pages.Login;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +14,7 @@ public class Login_Test {
 
         Login lp = new Login(driver);
         lp.openUrl();
-        lp.login("hk01@gmail.com", "1432");
+        lp.login("uji@gmail.com", "uji@123");
     }
 
     //For unsuccessful login
@@ -25,7 +25,7 @@ public class Login_Test {
 
         Login lp = new Login(driver);
         lp.openUrl();
-        lp.login("harik01.com", "1234");
+        lp.login("uji.com", "ujitha");
     }
 }
 

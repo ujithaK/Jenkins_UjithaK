@@ -1,4 +1,4 @@
-package test;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +14,7 @@ public class ContactPage_Test {
 
         ContactPage cp = new ContactPage(driver);
         cp.openUrl();
-        cp.submitForm("Hari", "hk01@gmail.com", "Need information regarding products");
+        cp.submitForm("Ujitha", "uji@gmail.com", "Need information regarding products");
     }
 }
 

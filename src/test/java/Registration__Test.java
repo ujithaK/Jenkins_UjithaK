@@ -1,10 +1,9 @@
-package test;
+
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import pages.Registration;
 public class Registration__Test {
 
     @Test
@@ -16,12 +15,12 @@ public class Registration__Test {
         Registration first = new Registration(driver);
 
         first.openUrl("https://tutorialsninja.com/demo/index.php?route=account/register");
-        first.enterFirstname("HARI");
-        first.enterLastname("Krishna");
-        first.enterEmail("hk01@gmail.com");
-        first.enterTelephone("9876543210");
-        first.enterPassword("1432");
-        first.confirmPassword("1432");
+        first.enterFirstname("ujitha");
+        first.enterLastname("k");
+        first.enterEmail("uji@gmail.com");
+        first.enterTelephone("9767527818");
+        first.enterPassword("uji@123");
+        first.confirmPassword("uji@123");
         first.toSubscribe();
         first.toAgree();
         first.toEnter();
